@@ -1,5 +1,11 @@
+
 body {
-   font-family: 'Montserrat Alternates';
+  font-family: 'Montserrat Alternates';
+  background-image: url(../img/shelves.jpg);
+  background-size: no-repeat;
+
+
+
 }
 
 .navbar-default {
@@ -109,10 +115,10 @@ body {
       width: 1903px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
-  background-image: url(http://cdn.pcwallart.com/images/yosemite-wallpaper-night-wallpaper-4.jpg);
+  background-image: url(../img/grass.jpg);
 }
 #thumbnail-preview-indicators .slides .slide-2 {
-  background-image: url(http://allswalls.com/images/sky-nature-mountain-space-stars-wallpaper-1.jpg);
+  background-image: url(../img/white-mountain.jpg);
 }
 #thumbnail-preview-indicators .slides .slide-3 {
   background-image: url(https://www.hdwallpapers.in/walls/swiss_night_sky-wide.jpg);
