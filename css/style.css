@@ -209,12 +209,12 @@ font-size: 16px;
 
 /* icons */
 
-#icon{
+.icon{
   max-width: 200px;
   margin: 1% auto;
 }
 
-#icon2{
+.icon2{
   height: 200px;
   margin: 1% auto;
 }
