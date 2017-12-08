@@ -1,10 +1,14 @@
 
 body {
   font-family: 'Montserrat Alternates';
+<<<<<<< HEAD
   //*background-image: url();*//
   background-size: no-repeat;
 
 
+=======
+font-size: 16px;
+>>>>>>> 3b4f19d835f51cf5fa21113c823c9096a15572ab
 
 }
 
@@ -14,13 +18,15 @@ body {
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 3px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #050505;
 }
 .navbar-default .navbar-text {
-  color: #ffffff;
+
 }
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
@@ -212,12 +218,12 @@ body {
 
 /* icons */
 
-#icon{
+.icon{
   max-width: 200px;
   margin: 1% auto;
 }
 
-#icon2{
+.icon2{
   height: 200px;
   margin: 1% auto;
 }
@@ -407,17 +413,7 @@ body {
 /* CSS used for positioning the footers at the bottom of the page. */
 /* You can remove this. */
 
-html{
-    height: 100%;
-}
 
-body{
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    height: 100%;
-}
 
 .content{
    flex: 1 0 auto;
