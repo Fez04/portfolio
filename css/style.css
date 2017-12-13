@@ -67,6 +67,7 @@ font-size: 16px;
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #ffffff;
+  padding-right: 15px;
 }
 .navbar-default .navbar-link {
   color: #ffffff;
@@ -282,7 +283,7 @@ body {
     position: absolute;
     top: -15px;
     right: -55px;
-    
+
     z-index:1032;
 }
 
