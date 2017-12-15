@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="js/script.js"></script>
-<link rel="stylesheet" href="css\style.css">
+<link rel="stylesheet" href="css\about.css">
 <link rel="stylesheet" href="about.html">
 <link rel="stylesheet" href="css\font-awesome.min.css">
 <meta charset="utf-8">
@@ -58,98 +58,61 @@
 <div class="container-fluid">
 	<div class="row">
 
+<!-- about -->
 
-
-
-<!--/FOOTER -->
-
-<div class="content">
+<div class="body-container profile-structure">
+    <div class="body-content">
+        <div class="profile-wrapper">
+			<div class="profile-header profile-same">
+				<div class="profile-avatar">
+					<img src="img\me1.png"/>
+				</div>
+				<h1>David Avendano</h1>
+				<h2>Front-End Developer</h2>
+			</div>
+			<div class="profile-bio profile-same">
+				<p class="short-description">Hi! My name is 						David and I'm a Web Developer.
+					I build and design fast...</p>
+				<div id="profile-bio-wrapper">
+					<div id="show-more-icon" class="no-select">
+						<i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+					</div>
+					<div class="social-list">
+						<ul>
+							<li class="bio-item paper-button"><a href="#" title="Stack Overflow PT" target="_blank"><i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i></a></li>
+							<li class="bio-item paper-button"><a href="#" title="CodePen" target="_blank"><i class="fa fa-fw fa-codepen" aria-hidden="true"></i></a></li>
+							<li class="bio-item paper-button"><a href="#" title="GitHub" target="_blank"><i class="fa fa-fw fa-github" aria-hidden="true"></i></a></li>
+							<li class="bio-item paper-button"><a href="javascript:void(0)" itemprop="email" title="" target="_top"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="bio-extra">
+						<p>Hi! My name is David and I'm a Web Developer.</p>
+						<p>I build and design fast performance oriented things and concepts
+						that look and feel good on the User Experience in hopes of making life easier
+						and enjoyable for hundreds of people.</p>
+						<p><b>Skilled in:</b> HTML, CSS, Responsive,  jQuery, and more.</p>
+						<p><b>Other skills:</b> Adobe Photoshop, Adobe After Effects, Mechanics, Electronics.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
 </div>
-    <footer id="myFooter">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Google Embed API to show Google Maps. -->
+<div class="bottom-ball-fill"></div>
 
-            <iframe id="map-container" frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25581.765742772837!2d-119.80661518268201!3d36.729268113335365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e2152ebc541%3A0x9cf3ae4dc0afd8c9!2sFresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1507773072872"">
-            </iframe>
-        </div>
-        <div class="social-networks">
-            <a href="https://twitter.com/DCAL33T" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.facebook.com/BubbleManiaClovis/" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="https://plus.google.com/104739162105722877783" class="google"><i class="fa fa-google-plus"></i></a>
-        </div>
-        <div class="footer-copyright">
-            <p>© 2017 Copyright Text </p>
-        </div>
-    </footer>
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+<!--java -->
+<script>
 
-     <script
-       src="https://code.jquery.com/jquery-3.2.1.min.js "
-       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-       crossorigin=" anonymous "></script>
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
-       <script type="text/javascript">
-         $(document).ready(function() {
-    var $lightbox = $('#lightbox');
+var bioShowMore = document.getElementById('show-more-icon');
+var bioMoreWrap = document.getElementById('profile-bio-wrapper');
 
-    $('[data-target="#lightbox"]').on('click', function(event) {
-        var $img = $(this).find('img'),
-            src = $img.attr('src'),
-            alt = $img.attr('alt'),
-            css = {
-                'maxWidth': $(window).width() - 100,
-                'maxHeight': $(window).height() - 100
-            };
+if (typeof(bioShowMore) != 'undefined' && bioShowMore != null){
+	bioShowMore.addEventListener('click', function(){
+		bioMoreWrap.classList.toggle('show-more-info');
+	});
+}
+</script>
 
-        $lightbox.find('.close').addClass('hidden');
-        $lightbox.find('img').attr('src', src);
-        $lightbox.find('img').attr('alt', alt);
-        $lightbox.find('img').css(css);
-    });
-
-    $lightbox.on('shown.bs.modal', function (e) {
-        var $img = $lightbox.find('img');
-
-        $lightbox.find('.modal-dialog').css({'width': $img.width()});
-        $lightbox.find('.close').removeClass('hidden');
-    });
-});
-       </script>
    </body>
  </html>
