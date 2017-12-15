@@ -1,7 +1,6 @@
 
 body {
-  font-family: 'Montserrat Alternates';
-font-size: 16px;
+
 
 }
 
@@ -111,7 +110,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-	font: 400 16px/24px Roboto,sans-serif;
+    font-family: 'Montserrat Alternates';
+  font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color: #212121;
@@ -190,7 +190,8 @@ p {margin: 0px;}
 }
 
 .profile-structure .body-content {
-	max-width:300px;
+	max-width:400px;
+  height: 500px;
 	top: 50%;
     left: 50%;
     transform: translate(-50%, -25%);
@@ -238,8 +239,8 @@ p {margin: 0px;}
     display: inline-block;
     text-align: center;
     position: relative;
-    height: 160px;
-    width: 160px;
+    height: 260px;
+    width: 260px;
     overflow: hidden;
     margin: 15px 30px 15px 30px;
     border-radius: 50%;
@@ -258,7 +259,8 @@ p {margin: 0px;}
     bottom: 0;
 }
 .profile-avatar img {
-    width: 80%;
+    width: 100px;
+    border-radius: 10px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -471,7 +473,7 @@ li.bio-item a {
 }
 @media (max-width: 480px), (max-height: 480px) {
 	#navigation {
-		font-size: 125% !important;
+		font-size: 125% ;
 	}
 	.profile-structure .body-content {
 		margin: 25px auto;
